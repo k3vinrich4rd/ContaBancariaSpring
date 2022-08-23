@@ -32,7 +32,7 @@ public class ExceptionHandlerContaBancaria extends ResponseEntityExceptionHandle
     @Setter
     @AllArgsConstructor
     @NoArgsConstructor
-    public static class MensagemErro{
+    public static class MensagemErro {
 
         private String mensagemDoUsuario;
         private String mensagemDev;
