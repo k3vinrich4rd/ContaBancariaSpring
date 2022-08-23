@@ -26,7 +26,7 @@ public class ContaBancariaModel {
     @Column(name = "agencia_da_conta", length = 100, nullable = false)
     private String agencia;
 
-    @Column(name= "nome_do_usuario_da_conta", length = 100, nullable = false)
+    @Column(name = "nome_do_usuario_da_conta", length = 100, nullable = false)
     private String nomeDoUsuario;
 
     @Column(name = "tipo_de_servico", length = 100, nullable = false)
@@ -40,10 +40,6 @@ public class ContaBancariaModel {
 
     @Column(name = "valor_final_da_conta", length = 100)
     private BigDecimal valorFinal;
-
-
-
-
 
 
 }
